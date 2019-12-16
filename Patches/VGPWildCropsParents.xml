@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- If mod *Vegetable Garden* is installed: Add Name attribute to plant ThingDefs for inheritence -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Vegetable Garden</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAttributeSet">
+          <xpath>Defs/ThingDef[defName="Plant_Barley"]</xpath>
+          <attribute>Name</attribute>
+          <value>VG_Plant_Barley</value>
+        </li>
+        <li Class="PatchOperationAttributeSet">
+          <xpath>Defs/ThingDef[defName="Plant_Snowbeet"]</xpath>
+          <attribute>Name</attribute>
+          <value>VG_Plant_Snowbeet</value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

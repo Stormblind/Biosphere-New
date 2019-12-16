@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+				<value>
+					<wildAnimals>
+						<Rat>0.9</Rat>
+						<Boomalope>0.5</Boomalope>
+						<Boomrat>0.5</Boomrat>
+						<Elephant>0.8</Elephant>
+						<Ibex>0.9</Ibex>
+						<Rhinoceros>0.5</Rhinoceros>
+						<Dromedary>0.8</Dromedary>
+						<Emu>0.9</Emu>
+						<Fox_Fennec>0.4</Fox_Fennec>
+						<Megascarab>0.4</Megascarab>
+						<Ostrich>0.9</Ostrich>
+						<Megaspider>0.3</Megaspider>
+						<Cow>0.9</Cow>
+						<Hare>0.9</Hare>
+					</wildAnimals>
+				</value>
+			</li>
+      
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildPlants</xpath>
+				<value>
+					<wildPlants>
+            <Wild_Haygrass>0.3</Wild_Haygrass>
+            <Wild_Devilstrand>0.3</Wild_Devilstrand>
+            <Plant_Agave>0.3</Plant_Agave>
+            <Plant_Grass>5</Plant_Grass>
+            <Plant_TallGrass>2</Plant_TallGrass>
+            <Plant_Bush>1</Plant_Bush>
+            <Plant_Brambles>0.5</Plant_Brambles>
+            <Plant_HealrootWild>2</Plant_HealrootWild>
+            <Plant_Berry>1</Plant_Berry>
+					</wildPlants>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace"> 
+		    <xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+		      <value>
+			      <wildAnimals>
+				      <Boomalope>0.4</Boomalope>
+				      <Boomrat>0.4</Boomrat>
+				      <Dromedary>0.9</Dromedary>
+				      <Emu>0.9</Emu>
+				      <Fox_Fennec>0.2</Fox_Fennec>
+				      <Megascarab>0.2</Megascarab>
+				      <Megaspider>0.2</Megaspider>
+				      <Ostrich>0.9</Ostrich>
+				      <Spelopede>0.2</Spelopede>
+				      <Hare>0.9</Hare>
+					</wildAnimals>
+				</value>
+			</li>
+      
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
+				<value>
+					<wildPlants>
+            <Plant_Agave>0.3</Plant_Agave>
+            <Plant_PincushionCactus>0.3</Plant_PincushionCactus>
+            <Plant_SaguaroCactus>1</Plant_SaguaroCactus>
+            <Plant_Grass>5</Plant_Grass>
+            <Plant_TallGrass>2</Plant_TallGrass>
+            <Plant_Bush>1</Plant_Bush>
+            <Plant_Brambles>0.5</Plant_Brambles>
+					</wildPlants>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace"> 
+		    <xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
+		      <value>
+			      <wildAnimals>
+				      <Dromedary>1.8</Dromedary>
+				      <Fox_Fennec>0.1</Fox_Fennec>
+				      <Megascarab>0.1</Megascarab>
+				      <Megaspider>0.1</Megaspider>
+				      <Spelopede>0.1</Spelopede>
+					</wildAnimals>
+				</value>
+			</li>
+      
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildPlants</xpath>
+				<value>
+					<wildPlants>
+            <Plant_Agave>1</Plant_Agave>
+            <Plant_PincushionCactus>0.3</Plant_PincushionCactus>
+            <Plant_SaguaroCactus>3</Plant_SaguaroCactus>
+            <Plant_Grass>5</Plant_Grass>
+            <Plant_Bush>2</Plant_Bush>
+            <Plant_Brambles>1</Plant_Brambles>
+					</wildPlants>
+				</value>
+			</li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/BiomeDef[defName="SeaIce"]/wildAnimals</xpath>
+          <value>
+            <wildAnimals>
+              <Bear_Polar>0.3</Bear_Polar>
+              <Wolf_Arctic>0.3</Wolf_Arctic>
+              <Fox_Arctic>0.3</Fox_Arctic>
+            </wildAnimals>
+          </value>
+        </li>
+
+
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
+          <value>
+            <wildAnimals>
+              <Bear_Polar>0.3</Bear_Polar>
+              <Wolf_Arctic>0.3</Wolf_Arctic>
+              <Fox_Arctic>0.3</Fox_Arctic>
+            </wildAnimals>
+          </value>
+      </li>
+
+            <li Class="PatchOperationReplace">
+              <xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+              <value>
+                <wildAnimals>
+                  <Caribou>0.9</Caribou>
+                  <Chinchilla>0.9</Chinchilla>
+                  <Snowhare>0.9</Snowhare>
+                  <Fox_Arctic>0.4</Fox_Arctic>
+                  <Bear_Polar>0.4</Bear_Polar>
+                </wildAnimals>
+              </value>
+            </li>
+            
+            <li Class="PatchOperationReplace">
+              <xpath>Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+              <value>
+                <wildPlants>
+                  <Wild_Haygrass>1</Wild_Haygrass>
+                  <Wild_Devilstrand>0.2</Wild_Devilstrand>
+                  <Plant_Grass>5</Plant_Grass>
+                  <Plant_TallGrass>2</Plant_TallGrass>
+                  <Plant_Bush>1</Plant_Bush>
+                  <Plant_Brambles>0.5</Plant_Brambles>  
+                  <Plant_Chokevine>0.5</Plant_Chokevine>
+                  <Plant_Berry>0.3</Plant_Berry>
+                  <Plant_HealrootWild>2</Plant_HealrootWild>
+                  <Plant_TreePine>5</Plant_TreePine>
+                </wildPlants>
+              </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+              <xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
+              <value>
+                <wildAnimals>
+                  <Caribou>0.9</Caribou>
+                  <Chinchilla>0.9</Chinchilla>
+                  <Snowhare>1</Snowhare>
+                  <Fox_Arctic>0.4</Fox_Arctic>
+                  <Bear_Polar>0.4</Bear_Polar>
+                  <Cougar>0.4</Cougar>
+                </wildAnimals>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+              <value>
+                <wildPlants>
+                  <Wild_Haygrass>1</Wild_Haygrass>
+                  <Wild_Devilstrand>0.2</Wild_Devilstrand>
+                  <Plant_Grass>4</Plant_Grass>
+                  <Plant_TallGrass>1</Plant_TallGrass>
+                  <Plant_Bush>1</Plant_Bush>
+                  <Plant_Brambles>0.5</Plant_Brambles>
+                  <Plant_Chokevine>0.5</Plant_Chokevine>
+                  <Plant_Berry>0.3</Plant_Berry>
+                  <Plant_TreeOak>1</Plant_TreeOak>
+                  <Plant_TreePine>1</Plant_TreePine>
+                  <Plant_HealrootWild>2</Plant_HealrootWild>
+                </wildPlants>
+              </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+              <xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+              <value>
+                <wildAnimals>
+                  <Caribou>0.9</Caribou>
+                  <Snowhare>0.9</Snowhare>
+                  <Fox_Arctic>0.4</Fox_Arctic>
+                  <Wolf_Timber>0.4</Wolf_Timber>
+                  <Alphabeaver>0.6</Alphabeaver>
+                  <Lynx>0.4</Lynx>
+                  <Deer>0.9</Deer>
+                  <Hare>0.9</Hare>
+                  <Muffalo>0.9</Muffalo>
+                  <Warg>0.4</Warg>
+                  <WildBoar>0.</WildBoar>
+                </wildAnimals>
+              </value>
+            </li>
+      
+            <li Class="PatchOperationReplace">
+              <xpath>Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+              <value>
+                <wildPlants>
+                  <Wild_Haygrass>1</Wild_Haygrass>
+                  <Wild_Devilstrand>0.1</Wild_Devilstrand>
+                  <Plant_Grass>5</Plant_Grass>
+                  <Plant_TallGrass>2</Plant_TallGrass>
+                  <Plant_Bush>1</Plant_Bush>
+                  <Plant_Brambles>0.5</Plant_Brambles>
+                  <Plant_Chokevine>0.5</Plant_Chokevine>
+                  <Plant_Berry>0.05</Plant_Berry>
+                  <Plant_TreeOak>20</Plant_TreeOak>
+                  <Plant_TreePine>20</Plant_TreePine>
+                  <Plant_HealrootWild>1</Plant_HealrootWild>
+                </wildPlants>
+              </value>
+            </li>
+      
+                  <li Class="PatchOperationReplace">
+                    <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+                    <value>
+                      <wildAnimals>
+                        <Alpaca>0.6</Alpaca>
+                        <Alphabeaver>0.4</Alphabeaver>
+                        <Bear_Grizzly>0.2</Bear_Grizzly>
+                        <Cow>0.6</Cow>
+                        <Cougar>0.2</Cougar>
+                        <Deer>0.6</Deer>
+                        <Elk>0.6</Elk>
+                        <Fox_Red>0.6</Fox_Red>
+                        <Hare>0.6</Hare>
+                        <LabradorRetriever>0.6</LabradorRetriever>
+                        <Muffalo>0.6</Muffalo>
+                        <Raccoon>0.6</Raccoon>
+                        <Squirrel>0.4</Squirrel>
+                        <Turkey>0.6</Turkey>
+                        <Warg>0.2</Warg>
+                        <WildBoar>0.6</WildBoar>
+                        <Wolf_Timber>0.2</Wolf_Timber>
+                      </wildAnimals>
+                    </value>
+                  </li>
+      
+                  <li Class="PatchOperationReplace">
+                    <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+                    <value>
+                      <wildPlants>
+                        <Wild_Corn>0.03</Wild_Corn>
+                        <Wild_Haygrass>0.03</Wild_Haygrass>
+                        <Wild_Cotton>0.03</Wild_Cotton>
+                        <Wild_Devilstrand>0.03</Wild_Devilstrand>
+                        <Plant_Grass>5</Plant_Grass>
+                        <Plant_TallGrass>2</Plant_TallGrass>
+                        <Plant_Bush>1</Plant_Bush>
+                        <Plant_Brambles>0.5</Plant_Brambles>
+                        <Plant_HealrootWild>0.2</Plant_HealrootWild>
+                        <Plant_Dandelion>0.3</Plant_Dandelion>
+                        <Plant_Astragalus>0.3</Plant_Astragalus>
+                        <Plant_Moss>0.3</Plant_Moss>
+                        <Plant_Berry>0.01</Plant_Berry>
+                        <Plant_TreeOak>1</Plant_TreeOak>
+                        <Plant_TreePoplar>1</Plant_TreePoplar>
+                        <Plant_TreePine>1</Plant_TreePine>
+                        <Plant_TreeBirch>1</Plant_TreeBirch>
+                      </wildPlants>
+                    </value>
+                  </li>
+
+               <li Class="PatchOperationReplace">
+                  <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+                    <value>
+                      <wildAnimals>
+                        <Warg>0.2</Warg>
+                        <WildBoar>0.6</WildBoar>
+                        <Muffalo>0.6</Muffalo>
+                        <Cow>0.</Cow>
+                        <Alpaca>0.6</Alpaca>
+                        <Bear_Grizzly>0.2</Bear_Grizzly>
+                        <Cougar>0.2</Cougar>
+                        <Elk>0.6</Elk>
+                        <Fox_Red>0.6</Fox_Red>
+                        <LabradorRetriever>0.6</LabradorRetriever>
+                        <Turkey>0.6</Turkey>
+                        <Wolf_Timber>0.2</Wolf_Timber>
+                        <Deer>0.6</Deer>
+                        <Alphabeaver>0.4</Alphabeaver>
+                        <Hare>0.6</Hare>
+                        <Raccoon>0.6</Raccoon>
+                        <Squirrel>0.4</Squirrel>
+                      </wildAnimals>
+                    </value>
+                  </li>
+                  <li Class="PatchOperationReplace">
+                    <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
+                    <value>
+                      <wildPlants>
+                        <Wild_Corn>0.04</Wild_Corn>
+                        <Wild_Haygrass>0.5</Wild_Haygrass>
+                        <Wild_Cotton>0.1</Wild_Cotton>
+                        <Wild_Devilstrand>0.1</Wild_Devilstrand>
+                        <Plant_Grass>5</Plant_Grass>
+                        <Plant_TallGrass>2</Plant_TallGrass>
+                        <Plant_Bush>1</Plant_Bush>
+                        <Plant_Brambles>0.5</Plant_Brambles>
+                        <Plant_HealrootWild>1</Plant_HealrootWild>
+                        <Plant_Dandelion>1</Plant_Dandelion>
+                        <Plant_Astragalus>1</Plant_Astragalus>
+                        <Plant_Moss>0.3</Plant_Moss>
+                        <Plant_Berry>0.04</Plant_Berry>
+                        <Plant_TreeOak>0.8</Plant_TreeOak>
+                        <Plant_TreePoplar>0.8</Plant_TreePoplar>
+                        <Plant_TreePine>0.8</Plant_TreePine>
+                        <Plant_TreeBirch>0.8</Plant_TreeBirch>
+                        <Plant_TreeWillow>0.8</Plant_TreeWillow>
+                        <Plant_Chokevine>0.5</Plant_Chokevine>
+                      </wildPlants>
+                    </value>
+                  </li>
+
+      
+                        <li Class="PatchOperationReplace">
+                          <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
+                          <value>
+                            <wildAnimals>
+                              <Elephant>0.9</Elephant>
+                              <WildBoar>0.9</WildBoar>
+                              <Hare>0.9</Hare>
+                              <Raccoon>0.4</Raccoon>
+                              <Squirrel>0.4</Squirrel>
+                              <Capybara>0.4</Capybara>
+                              <Cassowary>0.9</Cassowary>
+                              <Cobra>0.3</Cobra>
+                              <Gazelle>0.9</Gazelle>
+                              <Iguana>0.4</Iguana>
+                              <Megasloth>0.4</Megasloth>
+                              <Monkey>0.4</Monkey>
+                              <Tortoise>0.4</Tortoise>
+                            </wildAnimals>
+                          </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                          <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
+                          <value>
+                            <wildPlants>
+                              <Wild_Corn>0.06</Wild_Corn>
+                              <Wild_Haygrass>0.06</Wild_Haygrass>
+                              <Wild_Cotton>0.06</Wild_Cotton>
+                              <Wild_Devilstrand>0.06</Wild_Devilstrand>
+                              <Plant_Grass>5</Plant_Grass>
+                              <Plant_TallGrass>2</Plant_TallGrass>
+                              <Plant_Bush>1</Plant_Bush>
+                              <Plant_Brambles>1</Plant_Brambles>
+                              <Plant_HealrootWild>1.5</Plant_HealrootWild>
+                              <Plant_Moss>2</Plant_Moss>
+                              <Plant_Berry>0.06</Plant_Berry>
+                              <Plant_ShrubLow>2</Plant_ShrubLow>
+                              <Plant_TreeTeak>2</Plant_TreeTeak>
+                              <Plant_TreeCecropia>2</Plant_TreeCecropia>
+                            </wildPlants>
+                          </value>
+                        </li>
+                      </operations>
+                    </Operation>
+
+                    <Operation Class="PatchOperationSequence">
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
+                          <value>
+                            <wildAnimals>
+                              <Elephant>0.3</Elephant>
+                              <WildBoar>0.9</WildBoar>
+                              <Hare>0.3</Hare>
+                              <Raccoon>0.4</Raccoon>
+                              <Squirrel>0.4</Squirrel>
+                              <Capybara>0.4</Capybara>
+                              <Cassowary>0.9</Cassowary>
+                              <Cobra>0.3</Cobra>
+                              <Iguana>0.4</Iguana>
+                              <Megasloth>0.4</Megasloth>
+                              <Monkey>0.4</Monkey>
+                              <Tortoise>0.4</Tortoise>
+                            </wildAnimals>
+                          </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                          <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildPlants</xpath>
+                          <value>
+                            <wildPlants>
+                              <Wild_Corn>0.06</Wild_Corn>
+                              <Wild_Haygrass>0.06</Wild_Haygrass>
+                              <Wild_Cotton>0.06</Wild_Cotton>
+                              <Wild_Devilstrand>0.06</Wild_Devilstrand>
+                              <Plant_Grass>5</Plant_Grass>
+                              <Plant_TallGrass>2</Plant_TallGrass>
+                              <Plant_Bush>1</Plant_Bush>
+                              <Plant_Brambles>1</Plant_Brambles>
+                              <Plant_HealrootWild>1.5</Plant_HealrootWild>
+                              <Plant_Moss>1</Plant_Moss>
+                              <Plant_Berry>0.06</Plant_Berry>
+                              <Plant_ShrubLow>1</Plant_ShrubLow>
+                              <Plant_TreeTeak>2</Plant_TreeTeak>
+                              <Plant_TreeCecropia>2</Plant_TreeCecropia>
+                              <Plant_Chokevine>0.5</Plant_Chokevine>
+                              <Plant_TreeWillow>2</Plant_TreeWillow>
+                            </wildPlants>
+                          </value>
+                        </li>
+		</operations>
+	</Operation>
+</Patch>

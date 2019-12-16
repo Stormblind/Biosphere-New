@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="VG_Plant_Barley" Abstract="True">
+    <defName>BS_Wild_Barley</defName>
+    <label>barley plant</label>
+    <description>A cereal grain. Hearty plant that is imune to blight. Used in cooking and for making ale.</description>
+    <plant>
+      <neverBlightable>true</neverBlightable>
+      <harvestedThingDef>RawBarley</harvestedThingDef>
+      <harvestYield>8</harvestYield>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>7</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+      <immatureGraphicPath>Things/Immature/BarleyPlant</immatureGraphicPath>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+          
+  <ThingDef ParentName="VG_Plant_Snowbeet" Abstract="True">
+    <defName>BS_Wild_Snowbeet</defName>
+      <label>snow beet plant</label>
+      <description>A simple, highly nutritious plants. Grows well even in somewhat poor soil. Harvests quickly. A strong, versatile crop. Does not die in cold weather.</description>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestedThingDef>Rawsnowbeet</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <growDays>6</growDays>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <immatureGraphicPath>Things/Immature/SnowBeetPlant</immatureGraphicPath>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+		<defName>BS_Wild_redlentil</defName>
+        <label>red lentil plant</label>
+        <description>A redish variety of the lentil plant. One of the oldest know domesticated plants.</description>
+        <graphicData>
+          <texPath>Things/Plants/RedLentilPlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>RawRedLentil</harvestedThingDef>
+          <harvestYield>4</harvestYield>
+          <growDays>3.75</growDays>
+          <fertilitySensitivity>0.6</fertilitySensitivity>
+          <immatureGraphicPath>Things/Immature/RedLentilPlant</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+          <purpose>Food</purpose>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+	<defName>BS_Wild_bean</defName>
+        <label>bean plant</label>
+        <description>Common bean cooked up in many ways.</description>
+        <graphicData>
+          <texPath>Things/Plants/beanPlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>Rawbean</harvestedThingDef>
+          <harvestYield>5</harvestYield>
+          <growDays>47</growDays>
+          <fertilitySensitivity>1.0</fertilitySensitivity>
+          <immatureGraphicPath>Things/Immature/beanPlant</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+          <purpose>Food</purpose>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+    <defName>BS_Wild_Olivetree</defName>
+        <label>olive tree</label>
+        <description>A fruit bearing tree that grows olives and is not destroyed when picked.</description>
+        <statBases>
+          <MaxHitPoints>120</MaxHitPoints>
+          <Nutrition>0.25</Nutrition>
+        </statBases>
+        <graphicData>
+          <texPath>Things/Tree/TreeOlive</texPath>
+          <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <selectable>true</selectable>
+        <fillPercent>0.25</fillPercent>
+        <pathCost>30</pathCost>
+        <plant>
+          <fertilitySensitivity>0.6</fertilitySensitivity>
+          <growDays>10</growDays>
+          <harvestYield>8</harvestYield>
+          <harvestWork>400</harvestWork>
+          <harvestTag>Standard</harvestTag>
+          <harvestAfterGrowth>0.30</harvestAfterGrowth>
+          <harvestedThingDef>RawOlive</harvestedThingDef>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+          <purpose>Food</purpose>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+    <defName>BS_Wild_Tea</defName>
+        <label>tea plant</label>
+        <description>A green leafy plant, who's leaves can be brewed into a tasty beverage.</description>
+        <graphicData>
+          <texPath>Things/Plants/teaPlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>Rawtea</harvestedThingDef>
+          <harvestYield>5</harvestYield>
+          <growDays>4.25</growDays>
+          <fertilitySensitivity>1</fertilitySensitivity>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+    <defName>BS_Wild_Coffee</defName>
+        <label>coffee plant</label>
+        <description>A green, leafy plant yielding coffee beans. These beans can be brewed into a tasty beverage.</description>
+        <graphicData>
+          <texPath>Things/Plants/CoffeePlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>CPD_CoffeeBeans</harvestedThingDef>
+          <harvestYield>5</harvestYield>
+          <growDays>7</growDays>
+          <fertilitySensitivity>1</fertilitySensitivity>
+          <immatureGraphicPath>Things/Immature/CoffeePlant</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+	<defName>BS_Wild_TreeBamboo</defName>
+        <label>bamboo plant</label>
+        <description>A fast-growing tree-like species that grows in cluster. Bamboo can be harvested for a wood-like material. The plant itself is not beautiful.</description>
+        <graphicData>
+          <texPath>Things/Plants/bambooPlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>Bamboo</harvestedThingDef>
+          <harvestYield>14</harvestYield>
+          <growDays>10</growDays>
+          <fertilitySensitivity>0.75</fertilitySensitivity>
+          <wildClusterRadius>5</wildClusterRadius>
+          <wildClusterWeight>15</wildClusterWeight>
+          <immatureGraphicPath>Things/Immature/bambooPlant</immatureGraphicPath>
+          <wildOrder>2</wildOrder>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+	<defName>BS_Wild_cocoa</defName>
+        <label>cocoa bush</label>
+        <description>A tropical bush that produces chocolate, genetically engineered to sweeten its own product, and survive in slightly less-warm climates. Produces a lot less then the trees.</description>
+        <graphicData>
+          <texPath>Things/Plants/cocoaPlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>Chocolate</harvestedThingDef>
+          <harvestYield>2</harvestYield>
+          <growDays>7</growDays>
+          <fertilitySensitivity>0.6</fertilitySensitivity>
+          <immatureGraphicPath>Things/Immature/cocoaPlant</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+	<defName>BS_Wild_grape</defName>
+        <label>grape vine</label>
+        <description>A sweet small fruit that grows in small viney bushes.</description>
+        <graphicData>
+          <texPath>Things/Plants/grapePlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>Rawgrape</harvestedThingDef>
+          <harvestYield>6</harvestYield>
+          <growDays>6.5</growDays>
+          <fertilitySensitivity>0.6</fertilitySensitivity>
+          <immatureGraphicPath>Things/Immature/grapePlant</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+          <purpose>Food</purpose>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+		<defName>BS_Wild_blueberry</defName>
+        <label>blueberry plant</label>
+        <description>Blue colored berry that grows in bushes.</description>
+        <graphicData>
+          <texPath>Things/Plants/blueberryPlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>Rawblueberry</harvestedThingDef>
+          <harvestYield>8</harvestYield>
+          <growDays>6.5</growDays>
+          <fertilitySensitivity>0.6</fertilitySensitivity>
+          <immatureGraphicPath>Things/Immature/blueberryPlant</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+          <purpose>Food</purpose>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+		<defName>BS_Wild_eggplant</defName>
+        <label>eggplant plant</label>
+        <description>Purple variety of the eggplant. Bitter when eaten raw.</description>
+        <graphicData>
+          <texPath>Things/Plants/eggplantPlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>Raweggplant</harvestedThingDef>
+          <harvestYield>6</harvestYield>
+          <growDays>4.5</growDays>
+          <fertilitySensitivity>1</fertilitySensitivity>
+          <immatureGraphicPath>Things/Immature/eggplantPlant</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+          <purpose>Food</purpose>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+	<defName>BS_Wild_pumpkin</defName>
+        <label>pumpkin plant</label>
+        <description>Large orange version of the squash plant. Often carved to ward off ghosts.</description>
+        <graphicData>
+          <texPath>Things/Plants/pumpkinPlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>Rawpumpkin</harvestedThingDef>
+          <harvestYield>9</harvestYield>
+          <growDays>5</growDays>
+          <fertilitySensitivity>0.6</fertilitySensitivity>
+          <immatureGraphicPath>Things/Immature/pumpkinPlant</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+          <purpose>Food</purpose>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+	<defName>BS_Wild_squash</defName>
+        <label>squash plant</label>
+        <description>Yellow variety of the squash family.</description>
+        <graphicData>
+          <texPath>Things/Plants/squashPlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>Rawsquash</harvestedThingDef>
+          <harvestYield>8</harvestYield>
+          <growDays>4.5</growDays>
+          <fertilitySensitivity>0.6</fertilitySensitivity>
+          <immatureGraphicPath>Things/Immature/squashPlant</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+          <purpose>Food</purpose>
+        </plant>
+ </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+    <defName>BS_Wild_Tomato</defName>
+        <label>tomato vine</label>
+        <description>Distinctive red fruit that grows best in rich soil.</description>
+        <graphicData>
+          <texPath>Things/Plants/TomatoPlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>RawTomatoes</harvestedThingDef>
+          <harvestYield>8</harvestYield>
+          <growDays>4.25</growDays>
+          <fertilitySensitivity>1</fertilitySensitivity>
+          <immatureGraphicPath>Things/Immature/TomatoPlant</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+          <purpose>Food</purpose>
+        </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+	<defName>BS_Wild_Carrot</defName>
+        <label>carrot plant</label>
+        <description>A long orange vegetable that grows quickly, with a low yield.</description>
+        <graphicData>
+          <texPath>Things/Plants/CarrotPlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>RawCarrots</harvestedThingDef>
+          <harvestYield>6</harvestYield>
+          <growDays>3.25</growDays>
+          <fertilitySensitivity>0.6</fertilitySensitivity>
+          <immatureGraphicPath>Things/Immature/CarrotPlant</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+          <purpose>Food</purpose>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+	<defName>BS_Wild_Kiwi</defName>
+        <label>kiwi plant</label>
+        <description>An edible berry that is oval about the size of a large hen's egg and has a fibrous, dull greenish-brown skin and bright green or golden flesh with rows of tiny, black, edible seeds. The fruit has a soft texture with a sweet and unique flavour.</description>
+        <graphicData>
+          <texPath>Things/Fruit/kiwiPlant</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>RawKiwi</harvestedThingDef>
+          <harvestYield>6</harvestYield>
+          <growDays>3.25</growDays>
+          <fertilitySensitivity>0.6</fertilitySensitivity>
+          <immatureGraphicPath>Things/Immature/kiwiPlant</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+          <purpose>Food</purpose>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef" Abstract="True">
+	<defName>BS_Wild_MangoTree</defName>
+        <label>mango tree</label>
+        <description>A juicy stone fruit from tropical trees. The fruits may be somewhat round, oval, or kidney-shaped. It's skin is leather-like, waxy, smooth, and fragrant, with color ranging from green to yellow, yellow-orange, yellow-red, or blushed with various shades of red, pink or yellow when fully ripe.</description>
+        <graphicData>
+          <texPath>Things/Fruit/MangoTree</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <plant>
+          <harvestedThingDef>RawMango</harvestedThingDef>
+          <growDays>18</growDays>
+          <harvestAfterGrowth>0.30</harvestAfterGrowth>
+          <immatureGraphicPath>Things/Immature/MangoTree</immatureGraphicPath>
+          <wildClusterRadius>8</wildClusterRadius>
+          <wildClusterWeight>24</wildClusterWeight>
+          <wildOrder>2</wildOrder>
+          <purpose>Food</purpose>
+        </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef">
+    <defName>Wild_Corn</defName>
+    <label>corn plant</label>
+    <description>A tall grain plant which produces ears of soft, edible seeds. While corn takes a long time to grow, it yields lots of food compared to other crops. Harvested corn takes a long time to spoil.</description>
+<graphicData>
+      <texPath>Things/Plant/CornPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawCorn</harvestedThingDef>
+	    <harvestYield>22</harvestYield>
+      <growDays>22</growDays>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <immatureGraphicPath>Things/Plant/CornPlant_Immature</immatureGraphicPath>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+	</plant>
+</ThingDef>
+
+<ThingDef ParentName="BS_WildPlantDef">
+    <defName>Wild_Haygrass</defName>
+    <label>haygrass</label>
+    <description>A mixture of nutrient-rich grasses which yield large amounts of hay. Hay is edible for animals, but not humans.</description>
+    <graphicData>
+      <texPath>Things/Plant/Haygrass</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Hay</harvestedThingDef>
+	    <harvestYield>22</harvestYield>
+      <growDays>22</growDays>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <immatureGraphicPath>Things/Plant/CornPlant_Immature</immatureGraphicPath>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+  	</plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BS_WildPlantDef">
+    <defName>Wild_Cotton</defName>
+    <label>cotton plant</label>
+    <description>A mid-size crop that yields fine white cotton fibers. These are used to make cloth.</description>
+    <graphicData>
+      <texPath>Things/Plant/CottonPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Cloth</harvestedThingDef>
+	    <harvestYield>22</harvestYield>
+      <growDays>22</growDays>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <immatureGraphicPath>Things/Plant/CornPlant_Immature</immatureGraphicPath>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>2</wildOrder>
+    </plant>    
+  </ThingDef>
+
+
+  <ThingDef ParentName="BS_WildPlantDef">
+    <defName>Wild_Devilstrand</defName>
+    <label>devilstrand</label>
+    <description>This fragile mushroom was genetically engineered to produce a silk net that is both difficult to tear and soft to the touch. While the mushroom takes a very long time to grow, only exotic ultra-tech fabrics outperform its devilstrand fibers.\n\nSome say it's called devilstrand because of its red color. Others think it owes its name to the greed it inspires in people.</description>
+    <graphicData>
+      <texPath>Things/Plant/Devilstrand</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>DevilstrandCloth</harvestedThingDef>
+	    <harvestYield>22</harvestYield>
+      <growDays>22</growDays>
+      <neverBlightable>true</neverBlightable>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>24</wildClusterWeight>
+      <wildOrder>2</wildOrder>
+    </plant>       
+  </ThingDef> 
+
+</Defs>

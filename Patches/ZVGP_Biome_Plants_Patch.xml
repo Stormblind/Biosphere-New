@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Vegetable Garden</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+				<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+				<value>
+          <WildAppletree>0.04</WildAppletree>
+          <WildPeachTree>0.04</WildPeachTree>
+          <WildFigTree>0.04</WildFigTree>
+          <WildPlantCherrytree>0.4</WildPlantCherrytree>
+          <WildPlantgooseberry>0.4</WildPlantgooseberry>
+          <PlantTreeIronwood>0.8</PlantTreeIronwood>
+          <PlantTreeJapaneseMaple>0.8</PlantTreeJapaneseMaple>
+          <PlantTreeCherryBlossom>0.8</PlantTreeCherryBlossom>
+          <PlantTreeCamellia>0.8</PlantTreeCamellia>
+          <PlantTreeRedMaple>0.8</PlantTreeRedMaple>
+          <PlantPinkRimstalk>1</PlantPinkRimstalk>
+          <PlantNymphHair>1</PlantNymphHair>
+          <PlantSunflower>1</PlantSunflower>
+          <BS_Wild_Barley>0.04</BS_Wild_Barley>
+          <BS_Wild_Snowbeet>0.04</BS_Wild_Snowbeet>
+          <BS_Wild_redlentil>0.04</BS_Wild_redlentil>
+          <BS_Wild_bean>0.04</BS_Wild_bean>
+          <BS_Wild_blueberry>0.04</BS_Wild_blueberry>
+          <BS_Wild_pumpkin>0.04</BS_Wild_pumpkin>
+          <BS_Wild_squash>0.04</BS_Wild_squash>
+          <BS_Wild_Tomato>0.04</BS_Wild_Tomato>
+          <BS_Wild_Carrot>0.04</BS_Wild_Carrot>
+          <BS_Wild_Kiwi>0.04</BS_Wild_Kiwi>
+        </value>
+			</li>
+
+        <li Class="PatchOperationAdd">
+				<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
+				<value>
+						<WildAppletree>0.04</WildAppletree>
+            <WildPeachTree>0.04</WildPeachTree>
+            <WildFigTree>0.04</WildFigTree>
+            <WildPlantCherrytree>0.04</WildPlantCherrytree>
+            <WildPlantgooseberry>0.4</WildPlantgooseberry>
+            <PlantTreeIronwood>0.8</PlantTreeIronwood>
+            <PlantTreeJapaneseMaple>0.8</PlantTreeJapaneseMaple>
+            <PlantTreeCherryBlossom>0.8</PlantTreeCherryBlossom>
+            <PlantTreeCamellia>0.8</PlantTreeCamellia>
+            <PlantTreeRedMaple>0.8</PlantTreeRedMaple>
+            <PlantPinkRimstalk>1.2</PlantPinkRimstalk>
+            <PlantNymphHair>1.2</PlantNymphHair>
+            <PlantSunflower>1.2</PlantSunflower>
+           <BS_Wild_Barley>0.04</BS_Wild_Barley>
+            <BS_Wild_Snowbeet>0.04</BS_Wild_Snowbeet>
+            <BS_Wild_redlentil>0.04</BS_Wild_redlentil>
+            <BS_Wild_bean>0.04</BS_Wild_bean>
+            <BS_Wild_blueberry>0.04</BS_Wild_blueberry>
+            <BS_Wild_pumpkin>0.04</BS_Wild_pumpkin>
+            <BS_Wild_squash>0.04</BS_Wild_squash>
+            <BS_Wild_Tomato>0.04</BS_Wild_Tomato>
+            <BS_Wild_Carrot>0.04</BS_Wild_Carrot>
+            <BS_Wild_Kiwi>0.04</BS_Wild_Kiwi>  
+				</value>
+			</li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="AridShrubland"]/wildPlants</xpath>
+          <value>
+              <WildAppletree>0.005</WildAppletree>
+              <WildorangeTree>0.005</WildorangeTree>
+              <WildFigTree>0.005</WildFigTree>
+              <WildDateTree>0.005</WildDateTree>
+              <WildCoconuttree>0.005</WildCoconuttree>
+              <PlantTreeIronwood>0.2</PlantTreeIronwood>
+              <PlantTreeJapaneseMaple>0.2</PlantTreeJapaneseMaple>
+              <PlantTreeAcacia>0.2</PlantTreeAcacia>
+              <PlantTreeRedMaple>0.2</PlantTreeRedMaple>
+              <PlantAlliumGiganteum>0.3</PlantAlliumGiganteum>
+              <PlantPinkRimstalk>0.3</PlantPinkRimstalk>
+              <PlantAnthurium>0.3</PlantAnthurium>
+              <PlantNymphHair>0.3</PlantNymphHair>
+              <PlantSunflower>0.3</PlantSunflower>
+              <BS_Wild_redlentil>0.3</BS_Wild_redlentil>
+              <BS_Wild_Coffee>0.2</BS_Wild_Coffee>
+              <BS_Wild_grape>0.3</BS_Wild_grape>
+              <BS_Wild_blueberry>0.3</BS_Wild_blueberry>
+              <BS_Wild_eggplant>0.3</BS_Wild_eggplant>
+              <BS_Wild_Carrot>0.3</BS_Wild_Carrot>
+          </value>
+        </li>
+
+
+
+        <li Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
+        <value>
+            <WildDateTree>0.1</WildDateTree>
+            <WildFigTree>0.1</WildFigTree>
+            <PlantAlliumGiganteum>0.3</PlantAlliumGiganteum>
+            <BS_Wild_blueberry>0.3</BS_Wild_blueberry>
+        </value>
+      </li>
+        
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+                <value>
+                    <WildPlantcloudberry>0.3</WildPlantcloudberry>
+                    <WildPlantgooseberry>0.3</WildPlantgooseberry>
+                    <PlantPinkRimstalk>0.3</PlantPinkRimstalk>
+                    <PlantNymphHair>0.3</PlantNymphHair>
+                    <PlantSunflower>0.1</PlantSunflower>
+                    <BS_Wild_Snowbeet>0.3</BS_Wild_Snowbeet>
+                    <BS_Wild_blueberry>0.3</BS_Wild_blueberry>
+                    <BS_Wild_pumpkin>0.3</BS_Wild_pumpkin>
+                </value>
+              </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+                <value>
+                    <WildPlantcloudberry>0.3</WildPlantcloudberry>
+                    <WildPlantgooseberry>0.3</WildPlantgooseberry>
+                    <PlantPinkRimstalk>0.5</PlantPinkRimstalk>
+                    <PlantNymphHair>0.3</PlantNymphHair>
+                    <PlantSunflower>0.1</PlantSunflower>
+                    <BS_Wild_Snowbeet>0.3</BS_Wild_Snowbeet>
+                    <BS_Wild_blueberry>0.3</BS_Wild_blueberry>
+                    <BS_Wild_pumpkin>0.3</BS_Wild_pumpkin>
+                </value>
+              </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+                <value>
+                    <WildPlantcloudberry>0.2</WildPlantcloudberry>
+                    <WildPlantgooseberry>0.2</WildPlantgooseberry>
+                    <PlantPinkRimstalk>0.6</PlantPinkRimstalk>
+                    <PlantNymphHair>0.6</PlantNymphHair>
+                    <PlantSunflower>0.2</PlantSunflower>
+                    <BS_Wild_Snowbeet>0.2</BS_Wild_Snowbeet>
+                    <BS_Wild_blueberry>0.2</BS_Wild_blueberry>
+                    <BS_Wild_pumpkin>0.2</BS_Wild_pumpkin>
+                </value>
+              </li>
+
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
+          <value>
+              <WildBananaTree>0.07</WildBananaTree>
+              <WildorangeTree>0.07</WildorangeTree>
+              <WildPeachTree>0.07</WildPeachTree>
+              <WildFigTree>0.07</WildFigTree>
+              <WildCoconuttree>0.07</WildCoconuttree>
+              <WildPlantCherrytree>0.07</WildPlantCherrytree>
+              <WildPlantpineapple>0.07</WildPlantpineapple>
+              <PlantAnthurium>2</PlantAnthurium>
+              <PlantPlumeria>2</PlantPlumeria>
+              <BS_Wild_redlentil>0.06</BS_Wild_redlentil>
+              <BS_Wild_bean>0.06</BS_Wild_bean>
+              <BS_Wild_Olivetree>0.06</BS_Wild_Olivetree>
+              <BS_Wild_Tea>0.06</BS_Wild_Tea>
+              <BS_Wild_Coffee>0.06</BS_Wild_Coffee>
+              <BS_Wild_cocoa>0.06</BS_Wild_cocoa>
+              <BS_Wild_grape>0.06</BS_Wild_grape>
+              <BS_Wild_blueberry>0.06</BS_Wild_blueberry>
+              <BS_Wild_eggplant>0.06</BS_Wild_eggplant>
+              <BS_Wild_pumpkin>0.06</BS_Wild_pumpkin>
+              <BS_Wild_squash>0.06</BS_Wild_squash>
+              <BS_Wild_Tomato>0.06</BS_Wild_Tomato>
+              <BS_Wild_Carrot>0.06</BS_Wild_Carrot>
+              <BS_Wild_MangoTree>0.06</BS_Wild_MangoTree>
+              <BS_Wild_Kiwi>0.06</BS_Wild_Kiwi>
+              <Plant_Alocasia>1</Plant_Alocasia>
+              <Plant_Clivia>1</Plant_Clivia>
+              <Plant_Rafflesia>0.2</Plant_Rafflesia>
+              <Plant_TreePalm>2</Plant_TreePalm>
+          </value>
+        </li>
+        
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildPlants</xpath>
+          <value>
+              <WildBananaTree>0.8</WildBananaTree>
+              <WildorangeTree>0.8</WildorangeTree>
+              <WildPeachTree>0.8</WildPeachTree>
+              <WildFigTree>0.8</WildFigTree>
+              <WildCoconuttree>0.8</WildCoconuttree>
+              <WildPlantCherrytree>0.8</WildPlantCherrytree>
+              <WildPlantpineapple>0.8</WildPlantpineapple>
+              <PlantAnthurium>2</PlantAnthurium>
+              <PlantPlumeria>2</PlantPlumeria>
+              <BS_Wild_redlentil>0.06</BS_Wild_redlentil>
+              <BS_Wild_bean>0.06</BS_Wild_bean>
+              <BS_Wild_Olivetree>0.06</BS_Wild_Olivetree>
+              <BS_Wild_Tea>0.06</BS_Wild_Tea>
+              <BS_Wild_Coffee>0.06</BS_Wild_Coffee>
+              <BS_Wild_cocoa>0.06</BS_Wild_cocoa>
+              <BS_Wild_grape>0.06</BS_Wild_grape>
+              <BS_Wild_blueberry>0.06</BS_Wild_blueberry>
+              <BS_Wild_eggplant>0.06</BS_Wild_eggplant>
+              <BS_Wild_pumpkin>0.06</BS_Wild_pumpkin>
+              <BS_Wild_squash>0.06</BS_Wild_squash>
+              <BS_Wild_Tomato>0.06</BS_Wild_Tomato>
+              <BS_Wild_Carrot>0.06</BS_Wild_Carrot>
+              <BS_Wild_MangoTree>0.06</BS_Wild_MangoTree>
+              <BS_Wild_Kiwi>0.06</BS_Wild_Kiwi>
+              <Plant_Alocasia>2</Plant_Alocasia>
+              <Plant_Clivia>2</Plant_Clivia>
+              <Plant_Rafflesia>0.1</Plant_Rafflesia>
+              <Plant_TreePalm>2.5</Plant_TreePalm>
+              <Plant_TreeCypress>2.5</Plant_TreeCypress>
+          </value>
+        </li>
+
+		</operations>
+    </match>
+	</Operation>
+</Patch>

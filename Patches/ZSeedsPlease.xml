@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>SeedsPlease</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>VGP Vegetable Garden</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          
+        <!-- Seed_Redlentil -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Redlentil"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Redlentil"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_redlentil</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Redlentil"]/sources</xpath>
+              <value>
+                <li>BS_Wild_redlentil</li>
+              </value>
+            </match>
+          </li>
+          
+        <!-- Seed_Barley -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Barley"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Barley"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_Barley</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Barley"]/sources</xpath>
+              <value>
+                <li>BS_Wild_Barley</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Snowbeet -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Snowbeet"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Snowbeet"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_Snowbeet</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Snowbeet"]/sources</xpath>
+              <value>
+                <li>BS_Wild_Snowbeet</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Bean -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Bean"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Bean"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_bean</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Bean"]/sources</xpath>
+              <value>
+                <li>BS_Wild_bean</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Olive -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Olive"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Olive"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_Olivetree</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Olive"]/sources</xpath>
+              <value>
+                <li>BS_Wild_Olivetree</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Tea -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Tea"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Tea"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_Tea</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Tea"]/sources</xpath>
+              <value>
+                <li>BS_Wild_Tea</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Coffee -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Coffee"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Coffee"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_Coffee</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Coffee"]/sources</xpath>
+              <value>
+                <li>BS_Wild_Coffee</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Bamboo -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Bamboo"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Bamboo"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_TreeBamboo</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Bamboo"]/sources</xpath>
+              <value>
+                <li>BS_Wild_TreeBamboo</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Cocoa -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Cocoa"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Cocoa"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_cocoa</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Cocoa"]/sources</xpath>
+              <value>
+                <li>BS_Wild_cocoa</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Grape -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Grape"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Grape"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_grape</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Grape"]/sources</xpath>
+              <value>
+                <li>BS_Wild_grape</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Blueberry -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Blueberry"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Blueberry"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_blueberry</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Blueberry"]/sources</xpath>
+              <value>
+                <li>BS_Wild_blueberry</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Eggplant -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Eggplant"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Eggplant"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_eggplant</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Eggplant"]/sources</xpath>
+              <value>
+                <li>BS_Wild_eggplant</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Pumpkin -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Pumpkin"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Pumpkin"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_pumpkin</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Pumpkin"]/sources</xpath>
+              <value>
+                <li>BS_Wild_pumpkin</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Squash -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Squash"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Squash"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_squash</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Squash"]/sources</xpath>
+              <value>
+                <li>BS_Wild_squash</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Tomato -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Tomato"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Tomato"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_Tomato</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Tomato"]/sources</xpath>
+              <value>
+                <li>BS_Wild_Tomato</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Carrot -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Carrot"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Carrot"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_Carrot</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Carrot"]/sources</xpath>
+              <value>
+                <li>BS_Wild_Carrot</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Kiwi -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Kiwi"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Kiwi"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_Kiwi</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Kiwi"]/sources</xpath>
+              <value>
+                <li>BS_Wild_Kiwi</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Mango -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Mango"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Mango"]</xpath>
+              <value>
+                <sources>
+                  <li>BS_Wild_MangoTree</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Mango"]/sources</xpath>
+              <value>
+                <li>BS_Wild_MangoTree</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Corn -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Corn"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Corn"]</xpath>
+              <value>
+                <sources>
+                  <li>Wild_Corn</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Corn"]/sources</xpath>
+              <value>
+                <li>BWild_Corn</li>
+              </value>
+            </match>
+          </li>
+        
+        <!-- Seed_Haygrass -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Haygrass"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Haygrass"]</xpath>
+              <value>
+                <sources>
+                  <li>Wild_Haygrass</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Haygrass"]/sources</xpath>
+              <value>
+                <li>Wild_Haygrass</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Cotton -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Cotton"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Cotton"]</xpath>
+              <value>
+                <sources>
+                  <li>Wild_Cotton</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Cotton"]/sources</xpath>
+              <value>
+                <li>Wild_Cotton</li>
+              </value>
+            </match>
+          </li>
+
+        <!-- Seed_Devilstrand -->
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Devilstrand"]/sources</xpath>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Devilstrand"]</xpath>
+              <value>
+                <sources>
+                  <li>Wild_Devilstrand</li>
+                </sources>
+              </value>
+            </nomatch>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Devilstrand"]/sources</xpath>
+              <value>
+                <li>Wild_Devilstrand</li>
+              </value>
+            </match>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>AnimalCollabProj</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+
+        <operations>
+                <!-- ACPPenguin -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="ACPPenguin"]/race/baseHungerRate/text()</xpath>
+                    <value>0</value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPPenguin"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPWalrus -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="ACPWalrus"]/race/baseHungerRate/text()</xpath>
+                    <value>0</value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPWalrus"]/race/wildBiomes</xpath>
+            </li>
+                <!-- ACPSpottedSeal -->
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="ACPSpottedSeal"]/race/baseHungerRate/text()</xpath>
+                    <value>0</value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPSpottedSeal"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPBison -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPBison"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPBlackbear -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPBlackbear"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPBlackRhinoceros -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPBlackRhinoceros"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPLion -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPLion"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPTiger -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPTiger"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPCheetah -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPCheetah"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPAmurLeopard -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPAmurLeopard"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPSnowLeopard -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPSnowLeopard"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPChipmunk -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPChipmunk"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPDuck -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPDuck"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPDuckBilledPlatypus -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPDuckBilledPlatypus"]/race/wildBiomes</xpath>
+            </li>  
+    
+                <!-- ACPFlamingo -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPFlamingo"]/race/wildBiomes</xpath>
+            </li>
+
+          <!-- ACPFerret -->
+          <li Class="PatchOperationRemove">
+            <xpath>/Defs/ThingDef[defName="ACPFerret "]/race/wildBiomes</xpath>
+          </li>
+
+          <!-- ACPGiraffe -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPGiraffe"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPMajoreraGoat -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPMajoreraGoat"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPWildGoose -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPWildGoose"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPGreatBustard -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPGreatBustard"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPGuineaPig -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPGuineaPig"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPHedgehog -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPHedgehog"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPHippopotamus -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPHippopotamus"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPHoneyBadger -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPHoneyBadger"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPHorse -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPHorse"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPWoolyHorse -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPWoolyHorse"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPSilkspider -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPSilkspider"]/race/wildBiomes</xpath>
+            </li>
+       
+            <!-- ACPSilkieChicken -->
+              <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPSilkieChicken"]/race/wildBiomes</xpath>
+            </li>
+
+          <!-- ACPSpiritwolf -->
+          <li Class="PatchOperationRemove">
+            <xpath>/Defs/ThingDef[defName="ACPSpiritwolf"]/race/wildBiomes</xpath>
+          </li>
+
+                <!-- ACPHaulerAnt -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPHaulerAnt"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPAcidAnt -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPAcidAnt"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPJackalope -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPJackalope"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPKiwi -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPKiwi"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPKomodo -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPKomodo"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPXGecko -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPXGecko"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPLlama -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPLlama"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPFishercat -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPFishercat"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPErmine -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPErmine"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPMegabadger -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPMegabadger"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPOtter -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPOtter"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPPanda -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPPanda"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPPeccary -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPPeccary"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPPorcupine -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPPorcupine"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPPtarmigan -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPPtarmigan"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPValleyQuail -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPValleyQuail"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPRedPanda -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPRedPanda"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPMegascorpion -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPMegascorpion"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPSheep -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPSheep"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPTapir -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPTapir"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPThornyDevil -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPThornyDevil"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPWildDog -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPWildDog"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPBlackwolf -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPBlackwolf"]/race/wildBiomes</xpath>
+            </li>
+
+                <!-- ACPWoolyRhino -->
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="ACPWoolyRhino"]/race/wildBiomes</xpath>
+            </li>
+
+        </operations>
+    </match>
+  </Operation>
+</Patch>

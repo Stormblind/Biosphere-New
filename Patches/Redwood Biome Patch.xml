@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biome Expansion: Redwood forest</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName="RedwoodForest"]/wildPlants</xpath>
+				<value>
+            <wildPlants>
+              <Wild_Haygrass>0.5</Wild_Haygrass>
+              <Wild_Cotton>0.1</Wild_Cotton>
+              <Wild_Devilstrand>0.1</Wild_Devilstrand>
+              <Plant_Grass>1.2</Plant_Grass>
+              <Plant_TallGrass>1.0</Plant_TallGrass>
+              <Plant_Dandelion>0.3</Plant_Dandelion>
+              <Plant_Bush>0.9</Plant_Bush>
+              <Plant_Berry>0.01</Plant_Berry>
+              <Plant_HealrootWild>0.05</Plant_HealrootWild>
+              <!-- Trees -->
+              <Plant_TreeMaple>0.4</Plant_TreeMaple>
+              <Plant_TreePine>0.4</Plant_TreePine>
+              <!-- Custom -->
+              <Plant_TreeSequoia>0.2</Plant_TreeSequoia>
+              <Plant_TreeDouglasFir>0.3</Plant_TreeDouglasFir>
+              <Plant_Fern>1.2</Plant_Fern>
+            </wildPlants>
+          </value>
+			</li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/BiomeDef[defName="RedwoodForest"]/wildAnimals</xpath>
+          <value>
+            <wildAnimals>
+              <Squirrel>0.9</Squirrel>
+              <Hare>0.9</Hare>
+              <Fox_Red>0.4</Fox_Red>
+              <Bear_Grizzly>0.4</Bear_Grizzly>
+              <Alphabeaver>0.6</Alphabeaver>
+              <Cougar>0.4</Cougar>
+              <Elk>0.9</Elk>
+              <Muffalo>0.9</Muffalo>
+              <Warg>0.4</Warg>
+              <Raccoon>0.9</Raccoon>
+              <Deer>0.9</Deer>
+              <Turkey>0.9</Turkey>
+              <WildBoar>0.9</WildBoar>
+          </wildAnimals>
+          </value>
+        </li>
+        
+        <!-- VGP Patching-->
+
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>VGP Vegetable Garden</li>
+          </mods>
+             <match Class="PatchOperationSequence">
+               <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationAdd">
+                    <xpath>Defs/BiomeDef[defName="RedwoodForest"]/wildPlants</xpath>
+                    <value>
+                      <BS_Wild_grape>0.2</BS_Wild_grape>
+                      <WildAppletree>0.2</WildAppletree>
+                      <BS_Wild_Coffee>0.2</BS_Wild_Coffee>
+                      <WildPlantgooseberry>0.2</WildPlantgooseberry>
+                      <BS_Wild_cocoa>0.2</BS_Wild_cocoa>
+                      <BS_Wild_Olivetree>0.2</BS_Wild_Olivetree>
+                      <WildFigTree>0.2</WildFigTree>
+                    </value>
+                  </li>
+               </operations>
+              </match>
+         </li>
+
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>AnimalCollabProj</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+              <li Class="PatchOperationAdd">
+                <xpath>Defs/BiomeDef[defName="RedwoodForest"]/wildAnimals</xpath>
+                <value>
+                  <ACPMegabadger>0.6</ACPMegabadger>
+                  <ACPPorcupine>0.6</ACPPorcupine>
+                </value>
+              </li>
+            </operations>
+          </match>
+        </li>
+        
+		</operations>
+    </match>
+	</Operation>
+</Patch>

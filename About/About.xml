@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>New Biosphere</name>
+	<author>Stormblind</author>
+	<supportedVersions><li>1.0</li></supportedVersions>
+	<description>Creates stable, long term biomes for each vanilla biome!
+	
+&lt;size=24&gt;Features&lt;/size&gt;
+
+Overhauls the wild plant and wild animals of each biome to more closely represent a real world setup for the biomes given the concept of 'Humans are largely uninvolved in this plants Biosphere'. 
+
+From Ice Sheets to Extreme Deserts, life on earth has thrived; so why do those biomes in Rimworld feel so hollow and empty.
+
+&lt;size=24&gt;Issues&lt;/size&gt;
+
+There shouldn't be any. Balance is obviously always a concern, although it has been playtested. Feel free to tell me if you think something is too wacky.
+
+&lt;size=24&gt;Plans for the future&lt;/size&gt;
+
+Sub-mods that add support for whichever Biome projects you use! Terra Project, Realistic Planets, Nature's Pretty Sweet. Aim is to hit every single mod, and make their biomes more realistic and believable to play in!
+
+&lt;size=24&gt;Compatibility&lt;/size&gt;
+
+Biosphere Core should be compatible with almost every mod under the sun as long as the mods are compatible with VGP and Animal Collab, as the only things we do are use the plants and animals from those mods to flesh out the biomes a bit more than what vanilla offers. 
+
+&lt;size=24&gt;Credit&lt;/size&gt;
+
+Lanilor for assisting this new modder scum with learning some of the intracies of Rimworld Modding.
+Credit to Dismar for allowing for the integration and patching of VGP.
+Credit to Xen for allowing the integration of AnimalCollabProject.
+Credit to Serpy for allowing the integreation of Jurassic Rimworld. 
+You and your mods are the best guys!
+
+&lt;size=24&gt;Changelog&lt;/size&gt;
+
+v0.1: Prerelease
+v0.2: Updated to remove dependancies from VGP/ACP and make them modular dependancies instead. 
+
+	
+
+	</description>
+</ModMetaData>

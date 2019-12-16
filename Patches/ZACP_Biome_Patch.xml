@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!--ACP Wildlife Patches -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>AnimalCollabProj</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        
+        <!-- Temperate Forest animal Ecosphere -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+          <value>
+              <ACPGreatBustard>0.6</ACPGreatBustard>
+              <ACPPorcupine>0.6</ACPPorcupine>
+              <ACPPtarmigan>0.6</ACPPtarmigan>
+              <ACPMajoreraGoat>0.6</ACPMajoreraGoat>
+              <ACPWildGoose>0.6</ACPWildGoose>
+              <ACPBison>0.6</ACPBison>
+              <ACPBlackbear>0.2</ACPBlackbear>
+              <ACPFishercat>0.4</ACPFishercat>
+              <ACPHedgehog>0.6</ACPHedgehog>
+              <ACPJackalope>0.6</ACPJackalope>
+              <ACPLlama>0.6</ACPLlama>
+              <ACPRedPanda>0.4</ACPRedPanda>
+              <ACPKiwi>0.6</ACPKiwi>
+              <ACPAcidAnt>0.2</ACPAcidAnt>
+              <ACPHaulerAnt>0.2</ACPHaulerAnt>
+              <ACPDuck>0.6</ACPDuck>
+              <ACPErmine>0.6</ACPErmine>
+              <ACPSheep>0.6</ACPSheep>
+              <ACPSilkieChicken>0.4</ACPSilkieChicken>
+              <ACPChipmunk>0.4</ACPChipmunk>
+              <ACPHorse>0.6</ACPHorse>
+              <ACPMegabadger>0.2</ACPMegabadger>
+              <ACPSpiritwolf>0.2</ACPSpiritwolf>
+              <ACPValleyQuail>0.4</ACPValleyQuail>
+          </value>
+        </li>
+
+        <!-- Temperate Swamp animal Ecosphere -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+          <value>
+              <ACPGreatBustard>0.6</ACPGreatBustard>
+              <ACPPorcupine>0.6</ACPPorcupine>
+              <ACPPtarmigan>0.6</ACPPtarmigan>
+              <ACPMajoreraGoat>0.6</ACPMajoreraGoat>
+              <ACPWildGoose>0.6</ACPWildGoose>
+              <ACPBison>0.6</ACPBison>
+              <ACPBlackbear>0.2</ACPBlackbear>
+              <ACPFishercat>0.4</ACPFishercat>
+              <ACPHedgehog>0.6</ACPHedgehog>
+              <ACPJackalope>0.6</ACPJackalope>
+              <ACPLlama>0.6</ACPLlama>
+              <ACPRedPanda>0.4</ACPRedPanda>
+              <ACPKiwi>0.6</ACPKiwi>
+              <ACPAcidAnt>0.2</ACPAcidAnt>
+              <ACPHaulerAnt>0.2</ACPHaulerAnt>
+              <ACPDuck>0.6</ACPDuck>
+              <ACPErmine>0.6</ACPErmine>
+              <ACPSheep>0.6</ACPSheep>
+              <ACPSilkieChicken>0.4</ACPSilkieChicken>
+              <ACPChipmunk>0.4</ACPChipmunk>
+              <ACPHorse>0.6</ACPHorse>
+              <ACPMegabadger>0.2</ACPMegabadger>
+              <ACPSpiritwolf>0.2</ACPSpiritwolf>
+              <ACPValleyQuail>0.4</ACPValleyQuail>
+          </value>
+        </li>
+
+        <!--  Arid Shrubland animal Ecosphere -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+          <value>
+              <ACPCheetah>0.2</ACPCheetah>
+              <ACPGiraffe>0.9</ACPGiraffe>
+              <ACPHippopotamus>0.5</ACPHippopotamus>
+              <ACPLion>0.2</ACPLion>
+              <ACPGreatBustard>0.9</ACPGreatBustard>
+              <ACPHoneyBadger>0.2</ACPHoneyBadger>
+              <ACPThornyDevil>0.8</ACPThornyDevil>
+              <ACPBlackRhinoceros>0.6</ACPBlackRhinoceros>
+              <ACPMegascorpion>0.3</ACPMegascorpion>
+              <ACPAcidAnt>0.3</ACPAcidAnt>
+              <ACPHaulerAnt>0.3</ACPHaulerAnt>
+              <ACPSheep>0.9</ACPSheep>
+              <ACPSilkieChicken>0.8</ACPSilkieChicken>
+              <ACPValleyQuail>0.9</ACPValleyQuail>
+              <ACPSilkspider>0.3</ACPSilkspider>
+              <ACPPeccary>0.9</ACPPeccary>
+          </value>
+        </li>
+
+        <!-- Desert animal Ecosphere -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+          <value>
+              <ACPThornyDevil>0.9</ACPThornyDevil>
+              <ACPBlackRhinoceros>0.5</ACPBlackRhinoceros>
+              <ACPMegascorpion>0.2</ACPMegascorpion>
+              <ACPAcidAnt>0.2</ACPAcidAnt>
+              <ACPHaulerAnt>0.2</ACPHaulerAnt>
+              <ACPSheep>0.9</ACPSheep>
+              <ACPValleyQuail>0.9</ACPValleyQuail>
+              <ACPSilkspider>0.3</ACPSilkspider>
+              <ACPPeccary>0.9</ACPPeccary>
+          </value>
+        </li>
+        
+        <!-- Extreme Desert animal Ecosphere -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
+          <value>
+              <ACPThornyDevil>1.8</ACPThornyDevil>
+              <ACPMegascorpion>0.1</ACPMegascorpion>
+              <ACPAcidAnt>0.1</ACPAcidAnt>
+              <ACPHaulerAnt>0.1</ACPHaulerAnt>
+          </value>
+        </li>
+        
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="SeaIce"]/wildAnimals</xpath>
+          <value>
+              <ACPPenguin>0.9</ACPPenguin>
+              <ACPSpottedSeal>0.9</ACPSpottedSeal>
+              <ACPWalrus>0.9</ACPWalrus>
+          </value>
+        </li>
+
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
+          <value>
+              <ACPPenguin>0.9</ACPPenguin>
+              <ACPSpottedSeal>0.9</ACPSpottedSeal>
+              <ACPWalrus>0.9</ACPWalrus>
+          </value>
+        </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+    <value>
+        <ACPBison>0.9</ACPBison>
+        <ACPMajoreraGoat>0.9</ACPMajoreraGoat>
+        <ACPWoolyRhino>0.9</ACPWoolyRhino>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
+    <value>
+        <ACPBison>0.9</ACPBison>
+        <ACPMajoreraGoat>0.9</ACPMajoreraGoat>
+        <ACPWoolyRhino>0.9</ACPWoolyRhino>
+        <ACPWoolyHorse>0.9</ACPWoolyHorse>
+        <ACPSnowLeopard>0.4</ACPSnowLeopard>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+    <value>
+        <ACPBison>0.9</ACPBison>
+        <ACPMajoreraGoat>0.9</ACPMajoreraGoat>
+        <ACPWoolyRhino>0.9</ACPWoolyRhino>
+        <ACPWoolyHorse>0.9</ACPWoolyHorse>
+        <ACPSnowLeopard>0.4</ACPSnowLeopard>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
+    <value>
+        <ACPLion>0.4</ACPLion>
+        <ACPBlackRhinoceros>0.9</ACPBlackRhinoceros>
+        <ACPGreatBustard>0.9</ACPGreatBustard>
+        <ACPHoneyBadger>0.4</ACPHoneyBadger>
+        <ACPPorcupine>0.9</ACPPorcupine>
+        <ACPMajoreraGoat>0.9</ACPMajoreraGoat>
+        <ACPWildGoose>0.9</ACPWildGoose>
+        <ACPAcidAnt>0.4</ACPAcidAnt>
+        <ACPHaulerAnt>0.4</ACPHaulerAnt>
+        <ACPDuck>0.9</ACPDuck>
+        <ACPSheep>0.9</ACPSheep>
+        <ACPSilkieChicken>0.9</ACPSilkieChicken>
+        <ACPChipmunk>0.9</ACPChipmunk>
+        <ACPHorse>0.9</ACPHorse>
+        <ACPMegabadger>0.9</ACPMegabadger>
+        <ACPSpiritwolf>0.9</ACPSpiritwolf>
+        <ACPValleyQuail>0.4</ACPValleyQuail>
+        <ACPDuckBilledPlatypus>0.4</ACPDuckBilledPlatypus>
+        <ACPFlamingo>0.4</ACPFlamingo>
+        <ACPGuineaPig>0.4</ACPGuineaPig>
+        <ACPKomodo>0.9</ACPKomodo>
+        <ACPPanda>0.3</ACPPanda>
+        <ACPTapir>0.9</ACPTapir>
+        <ACPTiger>0.4</ACPTiger>
+        <ACPXGecko>0.4</ACPXGecko>
+        <ACPAngoraRabbit>0.4</ACPAngoraRabbit>
+        <ACPSilkspider>0.4</ACPSilkspider>
+        <ACPPeccary>0.4</ACPPeccary>
+    </value>
+  </li>
+
+  <li Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
+    <value>
+        <ACPHippopotamus>0.9</ACPHippopotamus>
+        <ACPGreatBustard>0.4</ACPGreatBustard>
+        <ACPHoneyBadger>0.4</ACPHoneyBadger>
+        <ACPPorcupine>0.4</ACPPorcupine>
+        <ACPMajoreraGoat>0.3</ACPMajoreraGoat>
+        <ACPWildGoose>0.9</ACPWildGoose>
+        <ACPAcidAnt>0.4</ACPAcidAnt>
+        <ACPHaulerAnt>0.4</ACPHaulerAnt>
+        <ACPDuck>0.4</ACPDuck>
+        <ACPSheep>0.9</ACPSheep>
+        <ACPSilkieChicken>0.9</ACPSilkieChicken>
+        <ACPChipmunk>0.4</ACPChipmunk>
+        <ACPMegabadger>0.9</ACPMegabadger>
+        <ACPSpiritwolf>0.9</ACPSpiritwolf>
+        <ACPValleyQuail>0.4</ACPValleyQuail>
+        <ACPDuckBilledPlatypus>0.4</ACPDuckBilledPlatypus>
+        <ACPFlamingo>0.4</ACPFlamingo>
+        <ACPGuineaPig>0.4</ACPGuineaPig>
+        <ACPKomodo>0.9</ACPKomodo>
+        <ACPPanda>0.3</ACPPanda>
+        <ACPTapir>0.9</ACPTapir>
+        <ACPTiger>0.4</ACPTiger>
+        <ACPXGecko>0.4</ACPXGecko>
+        <ACPAngoraRabbit>0.4</ACPAngoraRabbit>
+        <ACPSilkspider>0.4</ACPSilkspider>
+        <ACPPeccary>0.4</ACPPeccary>
+    </value>
+  </li>
+  </operations>
+  </match>
+  </Operation>
+
+</Patch>

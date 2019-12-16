@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!--VGP wild Crops -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VGP Vegetable Garden</li>
+    </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+                    <!-- Wild_Snowbeet -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_Snowbeet"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+                    <!-- Wild_Barley -->
+             <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_Barley"]</xpath>
+                <attribute>Abstract</attribute>
+            </li>
+                    <!-- Wild_redlentil -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_redlentil"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+              <!-- Wild_bean -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_bean"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+            <!-- Wild_Olivetree -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_Olivetree"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+              <!-- Wild_Tea -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_Tea"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+              <!-- Wild_Coffee -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_Coffee"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+              <!-- Wild_TreeBamboo -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_TreeBamboo"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+              <!-- Wild_cocoa -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_cocoa"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+            
+            <!-- Wild_grape -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_grape"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+            
+            <!-- Wild_blueberry -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_blueberry"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+            
+            <!-- Wild_eggplant -->        
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_eggplant"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+            
+            <!-- Wild_pumpkin -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_pumpkin"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+            
+            <!-- Wild_squash -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_squash"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+            
+            <!-- Wild_Tomato -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_Tomato"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+            
+            <!-- Wild_Carrot -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_Carrot"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+            
+            <!-- Wild_Kiwi -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_Kiwi"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+
+            <!-- Wild_MangoTree -->
+            <li Class="PatchOperationAttributeRemove">
+              <xpath>Defs/ThingDef[defName="BS_Wild_MangoTree"]</xpath>
+               <attribute>Abstract</attribute>
+            </li>
+
+
+            <!-- VGP_WildBiomes_Removals -->
+            <li Class="PatchOperationRemove">
+              <xpath>Defs/ThingDef[defName="Plantmushroom" or defName="PlantTreeRedMaple" or defName="PlantTreeAcacia" or defName="PlantTreeCamellia" or defName="PlantSunflower" or defName="PlantPinkRimstalk" or defName="PlantNymphHair" or defName="PlantAnthurium" or defName="PlantTreeIronwood" or defName="PlantPlumeria" or defName="WildPlantpineapple" or defName="WildPlantCherrytree" or defName="WildCoconuttree" or defName="WildFigTree" or defName="WildDateTree" or defName="WildPeachTree" or defName="WildPlantcloudberry" or defName="WildPlantgooseberry" or defName="WildAppletree" or defName="WildBananaTree" or defName="WildorangeTree"]/plant/wildBiomes</xpath>
+            </li>
+
+          </operations>
+      </match>
+  </Operation>
+</Patch>

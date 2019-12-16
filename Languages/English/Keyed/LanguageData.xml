@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<BC.FewerRuinsThings>Biosphere Core Map Settings</BC.FewerRuinsThings>
+	
+
+	
+
+	<BC.animalDensityLevel>Animal Density of New Maps:</BC.animalDensityLevel>
+
+	<BC.AnimalDensitySparse>Sparse. Relatively few animals.</BC.AnimalDensitySparse>
+	<BC.AnimalDensityNormal>Normal. (Vanilla density.)</BC.AnimalDensityNormal>
+	<BC.AnimalDensityDense>Dense. More animal life than usual.</BC.AnimalDensityDense>
+	<BC.AnimalDensityExtreme>Extreme. Teeming with life.</BC.AnimalDensityExtreme>
+	<BC.AnimalDensityRandom>RANDOM. Each time a map is created, a setting will be selected randomly.</BC.AnimalDensityRandom>
+
+	<BC.plantDensityLevel>Plant Density of New Maps:</BC.plantDensityLevel>
+
+	<BC.PlantDensitySparse>Sparse. Relatively few plants.</BC.PlantDensitySparse>
+	<BC.PlantDensityNormal>Normal. (Vanilla density.)</BC.PlantDensityNormal>
+	<BC.PlantDensityDense>Dense. More plant life than usual.</BC.PlantDensityDense>
+	<BC.PlantDensityExtreme>Extreme. Teeming with life.</BC.PlantDensityExtreme>
+	<BC.PlantDensityRandom>RANDOM. Each time a map is created, a setting will be selected randomly.</BC.PlantDensityRandom>
+	
+	
+</LanguageData>
